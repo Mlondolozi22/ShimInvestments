@@ -1,0 +1,62 @@
+@import url("index.css");
+
+body {
+    background-image: url("images/shim\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.contact {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.contact-details {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 15px;
+    border-left: 5px solid #e86161;
+}
+
+.contact-form {
+    max-width: 1003px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.contact-form h3 {
+    margin-top: 0;
+    color: #3c8598;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 98%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #3c8598;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #3c8598;
+}
